@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ie10</id>
+        <version>0.0.1</version>
+        <title>IE10</title>
+        <authors>Microsoft</authors>
+        <owners>Matt Richardson</owners>
+        <projectUrl>http://ie.microsoft.com/testdrive/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>IE10 - Explore a more beautiful web (Windows 7 only)</description>
+        <summary>IE10 - Explore a more beautiful web (Windows 7)</summary>
+        <tags>internet explorer ie10 chocolatey notSilent</tags>
+    </metadata>
+    <files>
+        <file src="content\IE10.ReadMe.txt" target="content\IE10.ReadMe.txt" />
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\install.ps1" target="tools\install.ps1" />
+    </files>
+</package>
