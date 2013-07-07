@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>ie10</id>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <title>IE10</title>
         <authors>Microsoft</authors>
         <owners>Matt Richardson</owners>
@@ -10,7 +10,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>IE10 - Explore a more beautiful web (Windows 7 only)</description>
         <summary>IE10 - Explore a more beautiful web (Windows 7)</summary>
-        <tags>internet explorer ie10 chocolatey notSilent</tags>
+        <tags>internet explorer ie10 chocolatey</tags>
     </metadata>
     <files>
         <file src="content\IE10.ReadMe.txt" target="content\IE10.ReadMe.txt" />
