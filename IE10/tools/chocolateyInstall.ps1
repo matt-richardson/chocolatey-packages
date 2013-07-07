@@ -1,8 +1,9 @@
-﻿if(Get-ItemProperty -Path $ieKey -Name "SvcUpdateVersion" -ErrorAction SilentlyContinue){
+﻿$ieKey="HKLM:\Software\Microsoft\Internet Explorer"
+if(Get-ItemProperty -Path $ieKey -Name "SvcUpdateVersion" -ErrorAction SilentlyContinue){
     $ieVersion=(Get-ItemProperty -Path $ieKey -Name "SvcUpdateVersion").svcUpdateVersion
     $hasIE10 = $ieVersion.StartsWith("10.")
 }
-if(!hasIE10 -eq !true){
+if($hasIE10 -eq $true){
     Write-ChocolateySuccess 'IE10'
 }
 else {
