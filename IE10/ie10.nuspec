@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>ie10</id>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
         <title>IE10</title>
         <authors>Microsoft</authors>
         <owners>Matt Richardson</owners>
